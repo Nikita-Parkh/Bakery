@@ -1,0 +1,148 @@
+.body{
+    font-family: "Inter" , serif;
+    background-color: grey;
+    color: var(--color-white);
+    /* что-бы было видно шрифт на начальном этапе  */
+}
+:root{
+    --color-white:white;
+    --color-for-buttons:#b47b48;
+    --color-for-buttonsInHeroList:#c85312;
+    --color-for-titleIn-footer:#d9d9d9;
+}
+/* header */
+.header-item-link{
+    font-weight: 200;
+    font-size: 24px;
+    color: var(--color-white);
+}
+/* hero */
+.hero-title{
+    font-weight: 200;
+    font-size: 70px;
+}
+.hero-description{
+    font-weight: 300;
+    font-size: 21px;
+}
+.hero-button{
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--color-white);
+    border-radius: 17px;
+    padding:16px 34px;
+    background-color:var(--color-for-buttons);
+    border: 0px;
+}
+.hero-item-article-title{
+    font-weight: 200;
+    font-size: 24px;
+}
+.hero-item-article-description{
+    font-weight: 500;
+    font-size: 16px;
+}
+.hero-item-article-button{
+    font-weight: 900;
+    font-size: 16px;
+    color: var(--color-white);
+    background-color: var(--color-for-buttonsInHeroList);
+    padding: 10px 22px;
+    border: 0px;
+}
+/* menu */
+.menu-title{
+    font-weight: 100;
+    font-size: 64px;
+}
+.menu-item-description{
+    font-weight: 800;
+    font-size: 25px;
+}
+.menu-item-button{
+    border-radius: 17px;
+    background-color: var(--color-for-buttons);
+    color: var(--color-white);
+    padding: 3px 43px 7px 43px;
+    font-weight:800;
+    font-size:25px;
+    border: 0px
+}
+/* quality */
+.quality-title{
+    font-weight: 400;
+    font-size: 64px;
+    font-family: "Italiana" , serif;
+}
+.quality-list-item:before{
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.quality-list-item:nth-child(1):before{
+    width: 355px;
+    height: 223px;
+    background-image: url(../images/bread.png);
+}
+.quality-list-item:nth-child(2):before{
+    width: 275px;
+    height: 284px;
+    background-image: url(../images/cake-in-quality.png);
+}
+.quality-list-item:nth-child(3):before{
+    width: 334px;
+    height: 332px;
+    background-image: url(../images/cake2-in-quality.png);
+}
+.quality-list-list-item{
+    font-weight: 500;
+    font-size: 24px;
+}
+/* footer-order */
+.footer-order-title{
+    font-weight: 400;
+    font-size: 48px;
+    font-family: "Italiana" , serif;
+    color: var(--color-for-titleIn-footer);
+}
+.footer-order-list-link{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-white);
+}
+/* footer-contacts */
+.footer-contacts-title{
+    font-family: "Italiana" , serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+.footer-contacts-list-item-list-item{
+    font-weight: 300;
+    font-size: 24px;
+}
+.footer-contacts-list-item-list-item-title{
+    font-weight: 400;
+    font-size: 40px;
+}
+/* footer-about */
+.footer-about-us-title{
+    font-weight: 200;
+    font-size: 40px;
+}
+.footer-about-us-description{
+    font-weight: 300;
+    font-size: 20px;
+}
+.footer-about-us-list-item-link{
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--color-white);
+}
+.footer-about-us-list-item-title{
+    font-weight: 300;
+    font-size: 24px;
+}
+
+
+
