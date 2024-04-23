@@ -20,24 +20,31 @@
     --color-for-titleIn-footer:#d9d9d9;
     --color-for-card-inHero:#272727;
     --color-for-menu-BG:rgba(32, 32, 35, 1);
-    --color-for-quality-list-in-list:rgba(242, 242, 242, 0.3);
+    --color-for-quality-list-in-list:#606062;
     --color-hover-hero:#d4955d;
 }
-.header-hero-div{
+.hero{
     background-image:linear-gradient(
         89.59deg,
-        #000000 8.49%,
-        rgba(3, 3, 3, 0) 100%
+        rgba(0 , 0 , 0 , 0.5) 0%,
+        rgba(3 , 3 , 3 , 0.2) 60%
       ),
        url(../images/imgForHeroBG.png);
-    background-size: cover; 
-    background-position: center;  
+    /* background-size: cover;  */
+    background-position: 0 0, 0 -84px;  
     background-repeat: no-repeat;
+    padding-bottom:36px;
+    padding-top: 71px;
 }
 /* header */
 .header{
     padding-top: 55px;
-    padding-bottom: 71px;
+    background-image:linear-gradient(
+        89.59deg,
+        rgba(0 , 0 , 0 , 0.5) 0%,
+        rgba(3 , 3 , 3 , 0.2) 60%
+      ),
+       url(../images/imgForHeroBG.png);
 }
 .header-item-link{
     font-weight: 200;
@@ -52,9 +59,6 @@
     margin-right: 31px;
 }
 /* hero */
-.hero{
-    padding-bottom:36px;
-}
 .hero-title{
     font-weight: 200;
     font-size: 70px;
@@ -249,30 +253,35 @@
     padding-top: 90px;
     padding-bottom: 47.54px;
     background-color: var(--color-for-menu-BG);
-    background-image: url(../images/qualityBG2.png),
+    background-image: url(../images/qualityBG1.png), 
+    linear-gradient(
+        rgba(0 , 0 , 0 , 0.3) ,
+        rgba(0 , 0 , 0 , 0.3) 0% ,
+        rgba(30 , 30 , 30 , 0.5) , 
+        rgba(30 , 30 , 30 , 0.5) 100%) ,
     url(../images/qualityBG3.png),
-    url(../images/qualityBG1.png);
+    url(../images/qualityBG2.png);
     background-repeat: no-repeat;
-    background-position: 0px bottom , 160px bottom ,770px bottom;
+    background-position:left 783px top 220px  , left 0px top 0px, left 162px top 220px , left 0px top 220px ;
+
 }
 .quality-title{
     font-weight: 400;
     font-size: 64px;
     font-family: "Italiana" , serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 84px;
+    margin-bottom: 123px;
+    margin-left: 435px;
 }
 .quality-list{
     display: flex;
 }
 .quality-list-item:nth-child(1){
    margin-right: 34px;
+   /* margin-top: -259px; */
 }
 .quality-list-item:nth-child(2){
     margin-right: 89.9px;
-    /* margin-bottom: 74px; */
+    /* margin-top: -74px; */
  }
  .quality-list-item:nth-child(3){
 
@@ -281,39 +290,20 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    outline: 1px solid red;
-    height:fit-content;
+   
  }
  /* доделать бг */
 .quality-list-list{
     background-color:var(--color-for-quality-list-in-list);
     padding: 32px 4.1px 50.46px 10px;
-    outline: 1px solid red;
-}
-.quality-list-item:before{
-    content: "";
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.quality-list-item:nth-child(1):before{
-    width: 355px;
-    height: 223px;
-    background-image: url(../images/bread.png);
-}
-.quality-list-item:nth-child(2):before{
-    width: 275px;
-    height: 284px;
-    background-image: url(../images/cake-in-quality.png);
-}
-.quality-list-item:nth-child(3):before{
-    width: 334px;
-    height: 332px;
-    background-image: url(../images/cake2-in-quality.png);
+
 }
 .quality-list-list-item{
     font-weight: 500;
     font-size: 24px;
+}
+.quality-list > .quality-list-item:nth-child(1) > img{
+    margin-bottom: 20px;
 }
 /* footer-order */
 .footer-order{
