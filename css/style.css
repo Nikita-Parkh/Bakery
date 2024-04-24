@@ -1,6 +1,6 @@
 .body{
     font-family: "Inter" , serif;
-    background-color: grey;
+    background-color: #000000ea;
     color: var(--color-white);
     /* что-бы было видно шрифт на начальном этапе  */
 }
@@ -353,27 +353,76 @@
     color: var(--color-white);
 }
 /* footer-contacts */
+.footer-contacts{
+    padding-top: 66px;
+    padding-bottom: 50px;
+    background-color: var(--color-for-menu-BG);
+}
 .footer-contacts-title{
     font-family: "Italiana" , serif;
     font-weight: 400;
     font-size: 48px;
+    margin-bottom: 44px;
 }
 .footer-contacts-list-item-list-item{
     font-weight: 300;
     font-size: 24px;
 }
-.footer-contacts-list-item-list-item-title{
+.footer-contacts-list-item-list {
+    margin-top: 13px;
+}
+.footer-contacts-list{
+    display: flex;
+}
+.map{
+    margin-right: 132.55px;
+}
+.footer-contacts-list-item-list-item1{
+    margin-bottom: 65px;
+}
+.time-contacts{
+    width: 200px;
+    text-align: center;
+    font-weight: 200;
+}
+.footer-contacts-list-item-list-item2{
+    margin-bottom: 40px;
+}
+.footer-contacts-list-item-list-item-title ,.footer-contacts-list-item-list-item-title-second{
     font-weight: 400;
     font-size: 40px;
 }
+.footer-contacts-list-item-list-item-title{
+    margin-bottom: 49px;
+    width: 175px;
+    text-align: start;
+}
+.footer-contacts-list-item-list-item-title-second{
+    margin-bottom: 40px;
+}
+.footer-contacts-list-item-list2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 /* footer-about */
+.footer-about-us{
+    background-color: var(--color-for-menu-BG);
+    padding-top: 40px;
+    padding-bottom: 44px;
+}
+.container-in-footer-about-us{
+    display: flex;
+}
 .footer-about-us-title{
     font-weight: 200;
     font-size: 40px;
+    color: var(--color-white);
 }
 .footer-about-us-description{
     font-weight: 300;
     font-size: 20px;
+    margin-top: 16px;
 }
 .footer-about-us-list-item-link{
     font-weight: 300;
@@ -383,6 +432,33 @@
 .footer-about-us-list-item-title{
     font-weight: 300;
     font-size: 24px;
+    margin-bottom: 41px;
+}
+.span-footer-about-us{
+    display: block;
+}
+.footer-all-right{
+    font-weight: 100;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 86px;
+}
+.footer-first-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+    margin-right: 77.32px;
+}
+.footer-about-us-list{
+    display: flex;
+    flex-direction: column;
+}
+.footer-about-us-list1{
+   margin-right: 141.59px;
+}
+.footer-about-us-list2{
+    margin-right: 154.64px;
 }
 
 
