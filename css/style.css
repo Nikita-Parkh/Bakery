@@ -276,11 +276,11 @@
     display: flex;
 }
 .quality-list-item:nth-child(1){
-   margin-right: 34px;
-   /* margin-top: -259px; */
+   margin-top: -180px;
 }
 .quality-list-item:nth-child(2){
     margin-right: 89.9px;
+    margin-top: -25px;
     /* margin-top: -74px; */
  }
  .quality-list-item:nth-child(3){
