@@ -255,10 +255,8 @@
     background-color: var(--color-for-menu-BG);
     background-image: url(../images/qualityBG1.png), 
     linear-gradient(
-        rgba(0 , 0 , 0 , 0.3) ,
-        rgba(0 , 0 , 0 , 0.3) 0% ,
-        rgba(30 , 30 , 30 , 0.5) , 
-        rgba(30 , 30 , 30 , 0.5) 100%) ,
+        rgba(32 , 32 , 35 , 0.5) , 
+        rgba(32 , 32 , 35 , 0.5) 100%) ,
     url(../images/qualityBG3.png),
     url(../images/qualityBG2.png);
     background-repeat: no-repeat;
